@@ -26,7 +26,7 @@ const Container = ({ children }) => (
         <Image
             style={styles.backgroundImage}
             resizeMode="cover"
-            source={require('./images/logo.jpg')}
+            source={require('./images/background.jpg')}
         />
         {children}
     </View>

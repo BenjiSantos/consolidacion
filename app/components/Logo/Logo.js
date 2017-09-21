@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
     logo: {
         width: DEVICE_WIDTH * 0.55,
-        height: DEVICE_HEIGHT * 0.1
+        height: DEVICE_HEIGHT * 0.2
     },
     text: {
         color: '#009B3A',
@@ -24,13 +24,11 @@ const styles = StyleSheet.create({
 
 const Logo = (props) => (
     <View style={styles.container}>
-        {/*<Image*/}
-            {/*resizeMode="contain"*/}
-            {/*style={styles.logo}*/}
-            {/*source={require('./images/logo.jpg')} />*/}
-        <Text style={styles.text}>
-            CONSOLIDACIÓN
-        </Text>
+        <Image
+            style={styles.logo}
+            resizeMode="contain"
+            source={require('./images/logo.png')}
+        />
     </View>
 )
 

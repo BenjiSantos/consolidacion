@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, Text, Dimensions, StyleSheet} from 'react-native'
+import { View, StyleSheet, Image, Dimensions } from 'react-native'
+
 const { width, height } = Dimensions.get('window')
 const DEVICE_HEIGHT = height
 const DEVICE_WIDTH = width
@@ -27,6 +28,7 @@ const Container = ({ children }) => (
             resizeMode="cover"
             source={require('./images/logo.jpg')}
         />
+        {children}
     </View>
 )
 

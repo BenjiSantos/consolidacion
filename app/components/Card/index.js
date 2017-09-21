@@ -1,3 +1,3 @@
 import CardWithActions from './CardWithActions'
 
-export {CardWithActions}
+export { CardWithActions }

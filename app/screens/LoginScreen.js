@@ -1,19 +1,15 @@
 import React, { Component } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
-/*
-   Import files for use here
- */
+
 import { Container } from '../components/Container'
 import { Logo } from '../components/Logo'
-import { CardWithActions } from '../components/Card/'
+import { CardWithActions } from '../components/Card'
 
-class LoginScreen extends component {
+class LoginScreen extends Component {
     render() {
         return (
             <Container>
                 <Logo version="1" />
                 <CardWithActions>
-
                 </CardWithActions>
             </Container>
         )
